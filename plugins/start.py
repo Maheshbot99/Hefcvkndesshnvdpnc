@@ -198,4 +198,4 @@ async def send_doc(client,message):
             total_size(int(botid), prsize, file.file_size)
             await message.reply_text(f"""**__𝑊ℎ𝑎𝑡 𝑑𝑜 𝑦𝑜𝑢 𝑤𝑎𝑛𝑡 𝑚𝑒 𝑡𝑜 𝑑𝑜 𝑤𝑖𝑡ℎ 𝑡ℎ𝑖𝑠 𝑓𝑖𝑙𝑒...?__**\n**__𝑂𝑙𝑑 𝐹𝑖𝑙𝑒𝑁𝑎𝑚𝑒__** :- {filename}\n**__𝐹𝑖𝑙𝑒 𝑆𝑖𝑧𝑒__** :- {filesize}\n**__𝐷𝐶 𝐼𝐷__** :- {dcid}""", reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("✍  ʀᴇɴᴀᴍᴇ", callback_data="rename"),
-                  InlineKeyboardButton("✖️ ᴄᴀɴᴄᴇʟ", callback_data="cancel")]]))
+                  InlineKeyboardButton("✖️ ᴄᴀɴᴄᴇʟ", callback_data="cancel")]])) 
