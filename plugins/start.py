@@ -183,7 +183,7 @@ async def send_doc(client,message):
                     await message.reply_text(f'**yᴏᴜʀ ᴩʟᴀɴ ᴇxᴩɪʀᴇᴅ ᴏɴ {buy_date}**', quote=True)
                     return
             else:
-                await message.reply_text("**ᴜᴩɢʀᴀᴅᴇ yᴏᴜʀ ᴩʟᴀɴ ᴛᴏ ʀᴇɴᴀᴍᴇ ꜰɪʟᴇꜱ ʟᴀʀɢᴇʀ ᴛʜᴀɴ 2ɢʙ**")
+                await message.reply_text("**ᴜᴩɢʀᴀᴅᴇ yᴏᴜʀ ᴩʟᴀɴ ᴛᴏ ʀᴇɴᴀᴍᴇ ꜰɪʟᴇꜱ ʟᴀʀɢᴇʀ ᴛʜᴀɴ 2ɢʙ** \n**ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ :- @KicchaFanMahi**")
                 return
         else:
             if buy_date:
