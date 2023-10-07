@@ -8,7 +8,7 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
 CHANNEL = os.environ.get("CHANNEL", "CrazyXBots") # username without '@'
 BOT_USERNAME = os.environ.get("BOT_USERNAME","") # username without '@'
-SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP","CrazyXBots_Support") # username without '@'
+SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP","KicchaFanMahi") # username without '@'
 UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL","CrazyXBots") # username without '@'
 OWNER_USERNAME = os.environ.get("OWNER_USERNAME","KicchaFanMahi")
 STRING = os.environ.get("STRING", "")
