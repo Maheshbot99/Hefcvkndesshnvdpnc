@@ -4,7 +4,7 @@ from helper.database import botdata, find_one, total_user
 from config import *
 from helper.progress import humanbytes
 
-botid = TOKEN_ONE.split(':')[0]
+botid = BOT_TOKEN.split(':')[0]
 
 @Client.on_message(filters.private & filters.command(["restart"]))
 async def start(client,message):
