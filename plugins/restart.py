@@ -6,7 +6,7 @@ from helper.progress import humanbytes
 
 botid = BOT_TOKEN.split(':')[0]
 
-@Client.on_message(filters.private & filters.command(["restart"]))
+@Client.on_message(filters.private & filters.command(["rebot"]))
 async def start(client,message):
 	botdata(int(botid))
 	data = find_one(int(botid))
